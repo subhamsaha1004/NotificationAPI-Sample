@@ -19,7 +19,7 @@
 	// generate the notification
 	function generateNotification(note) {
 		var n = new Notification(note.title, {
-			icon: 'icon-48.png',
+			icon: 'img/icon-48.png',
 			tag: 'note',
 			body: note.content
 		});
